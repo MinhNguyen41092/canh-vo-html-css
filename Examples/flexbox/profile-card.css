@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #00853e, #50c878);;
+    padding: 150px;
+    height: 100vh;
+}
+.list-profile{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: -30px;
+}
+.profile_card {
+    background-color: #242628;
+    width: calc(33% - 50px);
+    height: 400px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.profile_image {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid #f2726a;
+    overflow: hidden;
+    transform: translateY(30px);
+    transition: 0.3s;
+}
+
+.profile_image:hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: unset;
+    transform: unset;
+}   
+.profile_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile_name h2 {
+    margin-top: 50px;
+}
+.profile_title p {
+    color: #f2726a;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.profile_contact{
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.profile_contact i {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.profile_contact i:hover{
+    color: #f2726a;
+}
+button {
+     display: inline-block;
+     width: 100px;
+     height: 40px;
+     border: 1px solid #f2726a;
+     border-radius: 7px;
+     background-color: #242628;
+     color: white;
+     font-size: 14px;
+     margin-top: 50px;
+ }
+button:hover {
+    background-color: #f2726a;
+}
+.profile_image:hover button{
+    visibility: hidden;
+}
