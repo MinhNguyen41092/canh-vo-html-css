@@ -1,6 +1,7 @@
+
 .header {
+    width: 100%;
     background: $background-gardient;
-    position: relative;
 }
 .header-nav{
     display: flex;
@@ -54,22 +55,19 @@
 }
 .header-hero {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     color: $lightText-color;
-    gap: 0 86px;
 }
 .header-hero img {
     z-index: 2;
     box-shadow: 0px 9.86057px 19.7211px rgba(0, 0, 0, 0.16), 0px 9.86057px 131.474px rgba(0, 0, 0, 0.23);
 }
 .header-hero-content {
-    width: 100%;
-    max-width: 321px;
-    margin-right: 253px;
+    max-width: 322px;
+    margin-left: 86px;
 }
 .header-hero-heading {
-    font-size: 55px;
+    font-size: 48px;
     line-height: calc(65.5 / 55);
     margin-bottom: 24px;
     font-weight: 900;
