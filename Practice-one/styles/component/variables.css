@@ -1,0 +1,12 @@
+:root {
+    --text-color: #252B42;
+    --second-text-color: #374754;
+    --light-text-color: #FFFFFF;
+    --primary-color: #EF2779;
+    --secondary-color: #38A3F1;
+    --dark-background:#252B42;
+    --background-gardient: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+    --input-text-color: #18171D;
+    --background-form-color: #F5F5F5;
+    --boder-form-color: #E8E8E8;
+  }

@@ -1,0 +1,19 @@
+.wave {
+    position: relative;
+  }
+  .wave-in {
+    height: 150px; 
+    width: 100%; 
+    overflow: hidden; 
+    position: absolute; 
+    bottom: -62px ; 
+    z-index: 1;
+  }
+  .wave-out {
+    height: 150px; 
+    width: 100%; 
+    overflow: hidden; 
+    position: absolute; 
+    bottom: -105px ; 
+    z-index: 1;
+  }
