@@ -1,7 +1,8 @@
-.hero-light{
+.hero-light {
     padding: 81px 235px 90px 235px;
     text-align: center;
   }
+
   .hero-light .hero-light-heading {
     margin: 0 auto;
     max-width: 296px;
@@ -12,7 +13,8 @@
     color: var(--text-color);
     margin-bottom: 27px;
   }
-  .hero-light .hero-light-des{
+
+  .hero-light .hero-light-des {
     margin: 0 auto;
     max-width: 309px;
     font-size: 16px;
@@ -22,6 +24,7 @@
     color: var(--second-text-color);
     margin-bottom: 90px;
   }
+
   .hero-light .hero-light-btn {
     padding: 16px 58px;
     color: var(--light-text-color);
@@ -32,6 +35,7 @@
     line-height: calc(33 / 22);
     letter-spacing: 0.1px;
   }
+  
   .hero-light .hero-light-img {
     margin-top: 114px;
   }

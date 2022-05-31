@@ -4,10 +4,12 @@
     align-items: center;
     gap: 0 55px;
   }
+
   .footer-pages {
     padding-top: 10px;
     width: 33.33%;
   }
+
   .footer-pages .footer-page-heading {
     font-weight: 700;
     font-size: 22px;
@@ -16,7 +18,8 @@
     color: var(--text-color);
     margin-bottom: 25px;
   }
-  .footer-pages .footer-page-link{
+
+  .footer-pages .footer-page-link {
     display: block;
     font-weight: 400;
     font-size: 15px;
@@ -25,12 +28,14 @@
     color: var(--text-color);
     margin-top: 16px;
   }
+
   .footer-info .info-details {
     display: flex;
     align-items: center;
     gap: 0 20px;
     margin-bottom: 30px;
   }
+
   .footer-info .info-details .info-details-text {
     font-weight: 700;
     font-size: 12px;
@@ -38,9 +43,11 @@
     letter-spacing: 0.1px;
     color: var(--second-text-color);
   }
+  
   .footer-info .info-social {
     display: flex;
     align-items: center;
     gap: 0 32px;
     margin-top: 78px;
+    cursor: pointer;
   }

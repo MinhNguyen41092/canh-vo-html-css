@@ -1,10 +1,12 @@
-.features{
+.features {
     margin-top: 100px;
     padding: 81px 235px 90px 235px;
   }
-  .features-header{
+
+  .features-header {
     text-align: center;
   }
+
   .features-header .features-header-above {
     font-size: 22px;
     font-weight: 700;
@@ -13,6 +15,7 @@
     margin-bottom: 17px;
     color: var(--text-color);
   }
+
   .features-header .features-header-below {
     font-size: 46px;
     font-weight: 400;
@@ -21,6 +24,7 @@
     margin-bottom: 27px;
     color: var(--text-color);
   }
+
   .features-header .features-header-text {
     max-width: 309px;
     font-size: 16px;
@@ -31,22 +35,26 @@
     margin: 0 auto;
     margin-bottom: 100px;
   }
+
   .features-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 0 52px;
   }
-  .features-item-title{
+
+  .features-item-title {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
   }
+
   .features-item-title .item-title-img {
     width: 44px;
     height: 44px;
     margin: auto;
   }
+
   .features-item-title .item-title-text {
     font-size: 22px;
     font-weight: 700;
@@ -54,6 +62,7 @@
     letter-spacing: 0.1px;
     color: var(--text-color) ;
   }
+  
   .features-item .des {
     font-size: 18px;
     font-weight: 400;
