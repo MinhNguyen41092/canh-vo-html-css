@@ -16,6 +16,8 @@
 </head>
 <body>
   <div class="wrapper">
+
+    <!-- Header -->
     <header class="header">
 
       <nav class="header-nav">
@@ -41,14 +43,16 @@
           </ul>
     
           <form class="header-action">
-            <input type="text" placeholder="Your Email">
-            <a href="" class="header-subsribe">Subsribe</a>
+            <input type="text" placeholder="Your Email" class="header-action-input">
+            <button class="header-action-btn">Subsribe</button>
           </form>
         </div>
       </nav>
 
       <section class="header-hero">
-        <img srcset="./images/header-hero-img.png 2x" alt="" width="780px">
+        <div class="header-hero-img">
+          <img srcset="./images/header-hero-img.png 2x" alt="" width="780px" >
+        </div>
         <div class="header-hero-content">
           <h1 class="header-hero-heading">
             We focus on ergonomics  
@@ -63,42 +67,41 @@
 
     </header>
 
-<!-- Wave under header -->
-<div class="wave" style="position:relative">
-  <div style=
-"height: 150px; width: 100%; overflow: hidden; 
-position: absolute; bottom: -62px ; z-index: 1; " >
-  <svg viewBox="0 0 500 150" 
-  preserveAspectRatio="none" 
-  style="height: 100%; width: 100%;">
-  <path d="M503.67,50.83 C356.37,151.48 167.32,-79.42 -4.22,43.92 L-1.97,151.48 L501.41,150.50 Z" 
-  style="stroke: none; fill: #e9e2e2">
-</path></svg>
-</div>
-<div style=
-"height: 150px; width: 100%; overflow: hidden; 
-position: absolute; bottom: -105px ; z-index: 1; " >
-  <svg viewBox="0 0 500 150" 
-  preserveAspectRatio="none" 
-  style="height: 100%; width: 100%">
-  <path d="M502.54,60.70 C396.44,127.80 92.83,-167.25 -26.24,165.30 L21.16,158.39 L501.97,133.72 Z" 
-  style="stroke: none; fill: #FFF;">
-</path></svg></div>
-</div>
+    <!-- Wave under header -->
+    <div class="wave">
+      <div class="wave-in">
+        <svg viewbox="0 0 500 150" 
+            preserveaspectratio="none" 
+            style="height: 100%; width: 100%;">
+          <path d="M503.67,50.83 C356.37,151.48 167.32,-79.42 -4.22,43.92 L-1.97,151.48 L501.41,150.50 Z" 
+          style="stroke: none; fill: #e9e2e2">
+          </path>
+        </svg>
+      </div>
+      <div class="wave-out">
+        <svg viewbox="0 0 500 150" 
+        preserveaspectratio="none" 
+        style="height: 100%; width: 100%">
+          <path d="M502.54,60.70 C396.44,127.80 92.83,-167.25 -26.24,165.30 L21.16,158.39 L501.97,133.72 Z" 
+        style="stroke: none; fill: #FFF;">
+          </path>
+        </svg>
+      </div>
+    </div>
 
-<!-- Features -->
+    <!-- Features -->
     <section class="features">
       <div class="features-header">
-        <h3>At your fingertips</h3>
-        <h2>Features</h2>
-        <p>Most calendars are designed for teams. 
+        <h3 class="features-header-above">At your fingertips</h3>
+        <h2 class="features-header-below">Features</h2>
+        <p class="features-header-text">Most calendars are designed for teams. 
           Slate is designed for freelancers</p>
       </div>
       <div class="features-list">
         <div class="features-item">
           <div class="features-item-title">
-            <img src="./images/ic_round-restaurant-menu.png">
-            <h3>The best products 
+            <img src="./images/ic_round-restaurant-menu.png" class="item-title-img">
+            <h3 class="item-title-text">The best products 
               start with Sketch</h3>
           </div>
           <p class="des">Slate helps you see how many 
@@ -107,8 +110,8 @@ position: absolute; bottom: -105px ; z-index: 1; " >
         </div>
         <div class="features-item">
           <div class="features-item-title">
-            <img src="./images/ic_round-restaurant-menu-2.png">
-            <h3>Fastest way to 
+            <img src="./images/ic_round-restaurant-menu-2.png" class="item-title-img">
+            <h3 class="item-title-text">Fastest way to 
               organize</h3>
           </div>
           <p class="des">Slate helps you see how many 
@@ -117,8 +120,8 @@ position: absolute; bottom: -105px ; z-index: 1; " >
         </div>
         <div class="features-item">
           <div class="features-item-title">
-            <img src="./images/ic_round-restaurant-menu-3.png">
-            <h3>Work better 
+            <img src="./images/ic_round-restaurant-menu-3.png" class="item-title-img">
+            <h3 class="item-title-text">Work better 
               together</h3>
           </div>
           <p class="des">Slate helps you see how many 
@@ -128,16 +131,221 @@ position: absolute; bottom: -105px ; z-index: 1; " >
       </div>
     </section>
 
-<!-- Hero Light -->
+    <!-- Hero Light -->
     <section class="hero-light">
-      <h2>Lightning fast 
+      <h2 class="hero-light-heading">Lightning fast 
         prototyping </h2>
-      <p>Most calendars are designed for teams. 
+      <p class="hero-light-des">Most calendars are designed for teams. 
           Slate is designed for freelancers</p>
       <a href="" class="hero-light-btn">Try For Free</a>
-      <img src="./images/MacbookPro.png" alt="">
+      <img src="./images/MacbookPro.png" alt="" class="hero-light-img">
     </section>
 
+    <!-- light CTA -->
+    <section class="cta">
+      <h3 class="cta-heading-above">At your fingertips</h3>
+      <h2 class="cta-heading-below">Lightning fast prototyping </h2>
+      <h3 class="cta-content-above">Subscribe to our Newsletter</h3>
+      <p class="cta-content-text">Available exclusivery on Figmaland</p>
+      <form action="" class="cta-form">
+        <input type="text" placeholder="Your Email" class="cta-form-input">
+        <button class="cta-form-btn">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- PARTNER -->
+    <section class="partner">
+      <h2 class="partner-heading">Partners</h2>
+      <p class="partner-header-text">Most calendars are designed for teams. 
+        Slate is designed for freelancers</p>
+      <div class="partner-list">
+        <div class="partner-item">
+          <p class="partner-item-title">Client Name</p>
+          <img src="./images/logos_apiary.png" alt="" class="partner-item-img">
+          <p class="partner-item-des">Slate helps you see how 
+            many more days you need 
+            to work to reach your 
+            financial goal for
+            the month and year.</p>
+        </div>
+        <div class="partner-item">
+          <p class="partner-item-title">Client Name</p>
+          <img src="./images/logos_android-icon.png" alt="" class="partner-item-img">
+          <p class="partner-item-des">Slate helps you see how 
+            many more days you need 
+            to work to reach your 
+            financial goal for
+            the month and year.</p>
+        </div>
+        <div class="partner-item">
+          <p class="partner-item-title">Client Name</p>
+          <img src="./images/logos_basecamp.png" alt="" class="partner-item-img">
+          <p class="partner-item-des">Slate helps you see how 
+            many more days you need 
+            to work to reach your 
+            financial goal for
+            the month and year.</p>
+        </div>
+        <div class="partner-item">
+          <p class="partner-item-title">Client Name</p>
+          <img src="./images/logos_basecamp.png" alt="" class="partner-item-img">
+          <p class="partner-item-des">Slate helps you see how 
+            many more days you need 
+            to work to reach your 
+            financial goal for
+            the month and year.</p>
+        </div>
+        <div class="partner-item">
+          <p class="partner-item-title">Client Name</p>
+          <img src="./images/logos_airbnb.png" alt="" class="partner-item-img">
+          <p class="partner-item-des">Slate helps you see how 
+            many more days you need 
+            to work to reach your 
+            financial goal for
+            the month and year.</p>
+        </div>
+        <div class="partner-item">
+          <p class="partner-item-title">Client Name</p>
+          <img src="./images/logos_apple-app-store.png" alt="" class="partner-item-img">
+          <p class="partner-item-des">Slate helps you see how 
+            many more days you need 
+            to work to reach your 
+            financial goal for
+            the month and year.</p>
+        </div>
+      </div>
+      <a href="" class="partner-btn">Try For Free</a>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2 class="testimonials-heading">Testimonials</h2>
+      <img src="./images/dropbox.png" alt="" class="testimonials-logo">
+      <p class="testimonials-text">Most calendars are designed for teams. 
+        Slate is designed for freelancers who want a simple 
+        way to plan their schedule.</p>
+      <div class="testimonials-user">
+        <img src="./images/testimonials-avt.png" alt="" class="testimonials-user-avt">
+        <div class="testimonials-user-info">
+          <h5 class="testimonials-user-name">Organize across</h5>
+          <a href="" class="testimonials-user-des">Ui designer</a>
+        </div>
+      </div>
+      <a href="" class="testimonials-btn">More Testimonials</a>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing">
+      <h2 class="pricing-heading">Pricing</h2>
+      <h4 class="pricing-tetx">Most calendars are designed for teams. 
+        Slate is designed for freelancers</h4>
+      <div class="pricing-list">
+        <div class="pricing-item">
+          <h3 class="pricing-item-title">Free</h3>
+          <h5 class="pricing-item-des">Organize across all apps by hand</h5>
+          <div class="pricing-item-price">
+            <h1 class="item-left">0</h1>
+            <div class="item-right">
+              <h3 class="item-price-unit">$</h3>
+              <h5 class="item-price-text">Per Month</h5>
+            </div>
+          </div>
+          <a href="" class="pricing-item-btn">Order Now</a>
+        </div>
+        <div class="pricing-item">
+          <h3 class="pricing-item-title">STANDARD</h3>
+          <h5 class="pricing-item-des">Organize across all apps by hand</h5>
+          <div class="pricing-item-price">
+            <h1 class="item-left">10</h1>
+            <div class="item-right">
+              <h3 class="item-price-unit">$</h3>
+              <h5 class="item-price-text">Per Month</h5>
+            </div>
+          </div>
+          <a href="" class="pricing-item-btn">Order Now</a>
+        </div>
+        <div class="pricing-item">
+          <h3 class="pricing-item-title">BUSINESS</h3>
+          <h5 class="pricing-item-des">Organize across all apps by hand</h5>
+          <div class="pricing-item-price">
+            <h1 class="item-left">99</h1>
+            <div class="item-right">
+              <h3 class="item-price-unit">$</h3>
+              <h5 class="item-price-text">Per Month</h5>
+            </div>
+          </div>
+          <a href="" class="pricing-item-btn">Order Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+      <h2 class="contact-heading">Contact Us</h2>
+      <h4 class="contact-text">Most calendars are designed for teams. 
+        Slate is designed for freelancers</h4>
+      <div class="contact-main">
+        <form action="" class="contact-form">
+          <input type="text" placeholder="Your Name" class="contact-form-input">
+          <input type="email" placeholder="Your Email" class="contact-form-input">
+          <textarea name="message" id="" placeholder="Your Message" class="contact-form-textarea"></textarea>
+          <button class="form-btn">Send</button>
+        </form>
+        <div class="contact-info">
+          <div class="info-details">
+            <img src="./images/location-icon.png" alt="" class="info-details-img">
+            <h5 class="info-details-text">6386 Spring St undefined Anchorage, 
+              Georgia 12473 United States</h5>
+          </div>
+          <div class="info-details">
+            <img src="./images/phone-icon.png" alt="" class="info-details-img">
+            <h5 class="info-details-text">(843) 555-0130</h5>
+          </div>
+          <div class="info-details">
+            <img src="./images/mail-icon.png" alt="" class="info-details-img">
+            <h5 class="info-details-text">willie.jennings@example.com</h5>
+          </div>
+          <div class="info-social">
+            <img src="./images/twitter-icon.png" alt="">
+            <img src="./images/facebook-icon.png" alt="">
+            <img src="./images/linkedln-icon.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-pages">
+        <h3 class="footer-page-heading">Pages</h3>
+        <a href="" class="footer-page-link">Eleanor Edwards</a>
+        <a href="" class="footer-page-link">Ted Robertson</a>
+        <a href="" class="footer-page-link">Annette Russell</a>
+        <a href="" class="footer-page-link">Jennie Mckinney</a>
+        <a href="" class="footer-page-link">Gloria Richards</a>
+      </div>
+      <img src="./images/map-icon.png" alt="" class="footer-image">
+      <div class="footer-info">
+        <div class="info-details">
+          <img src="./images/location-icon.png" alt="" class="info-details-img">
+          <h5 class="info-details-text">6386 Spring St undefined Anchorage, 
+            Georgia 12473 United States</h5>
+        </div>
+        <div class="info-details">
+          <img src="./images/phone-icon.png" alt="" class="info-details-img">
+          <h5 class="info-details-text">(843) 555-0130</h5>
+        </div>
+        <div class="info-details">
+          <img src="./images/mail-icon.png" alt="" class="info-details-img">
+          <h5 class="info-details-text">willie.jennings@example.com</h5>
+        </div>
+        <div class="info-social">
+          <img src="./images/twitter-icon.png" alt="">
+          <img src="./images/facebook-icon.png" alt="">
+          <img src="./images/linkedln-icon.png" alt="">
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>

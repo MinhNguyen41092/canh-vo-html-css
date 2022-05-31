@@ -1,0 +1,104 @@
+.pricing {
+    padding: 110px 167px 100px 167px;
+    text-align: center;
+  }
+  .pricing-heading {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: calc(57 / 46);
+    letter-spacing: 0.2px;
+    color: var(--text-color);
+    margin-bottom: 27px;
+  }
+  .pricing-tetx {
+    max-width: 310px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    letter-spacing: 0.2px;
+    color: var(--second-text-color);
+    margin-bottom: 90px;
+  }
+  .pricing-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 0 50px;
+  }
+  .pricing-item {
+    padding: 40px;
+    background: var(--light-text-color);
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  }
+  .pricing-item .pricing-item-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: calc(33 / 22);
+    letter-spacing: 0.1px;
+    color: var(--text-color);
+    margin-bottom: 3px;
+  }
+  .pricing-item .pricing-item-des {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: calc(18 / 12);
+    letter-spacing: 0.1px;
+    color: var(--second-text-color);
+    margin-bottom: 30px;
+  }
+  .pricing-item-price {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .pricing-item-price .item-left {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: calc(66 / 55);
+    letter-spacing: 0.2px;
+    color: var(--text-color);
+    margin-right: 10px;
+  }
+  .item-right .item-price-unit {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: calc(33 / 22);
+    letter-spacing: 0.1px;
+    color: var(--text-color);
+  }
+  .item-right .item-price-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: calc(18 / 12);
+    letter-spacing: 0.1px;
+    color: var(--second-text-color);
+  }
+  .pricing-item-btn {
+    padding: 18px 57px;
+    background-color: var(--secondary-color);
+    border-radius: 35px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(16 / 16);
+    letter-spacing: 0.2px;
+    color: var(--light-text-color);
+  }
+  .pricing-item:nth-child(3) {
+    background: var(--background-gardient);
+    color: var(--light-text-color);
+  }
+  .pricing-item:nth-child(3) .pricing-item-title,
+  .pricing-item:nth-child(3) .pricing-item-des,
+  .pricing-item:nth-child(3) .item-left,
+  .pricing-item:nth-child(3) .item-price-unit,
+  .pricing-item:nth-child(3) .item-price-text {
+    color: var(--light-text-color);
+  }
+  .pricing-item:nth-child(3) .pricing-item-btn {
+    background-color: var(--light-text-color);
+    color: var(--primary-color);
+  } 
+  

@@ -1,37 +1,37 @@
 .hero-light{
     padding: 81px 235px 90px 235px;
     text-align: center;
-}
-.hero-light h2 {
+  }
+  .hero-light .hero-light-heading {
     margin: 0 auto;
     max-width: 296px;
     font-size: 46px;
     font-weight: 400;
     line-height: calc(57 / 46);
     letter-spacing: 0.2px;
-    color: $text-color;
+    color: var(--text-color);
     margin-bottom: 27px;
-}
-.hero-light p{
+  }
+  .hero-light .hero-light-des{
     margin: 0 auto;
     max-width: 309px;
     font-size: 16px;
     font-weight: 700;
     line-height: calc(20 / 16);
     letter-spacing: 0.2px;
-    color: $secondText-color;
+    color: var(--second-text-color);
     margin-bottom: 90px;
-}
-.hero-light-btn {
+  }
+  .hero-light .hero-light-btn {
     padding: 16px 58px;
-    color: $lightText-color;
-    background-color: $secondary-color;
+    color: var(--light-text-color);
+    background-color: var(--secondary-color);
     border-radius: 35px;
     font-weight: 700;
     font-size: 22px;
     line-height: calc(33 / 22);
     letter-spacing: 0.1px;
-}
-.hero-light img {
+  }
+  .hero-light .hero-light-img {
     margin-top: 114px;
-}
+  }
