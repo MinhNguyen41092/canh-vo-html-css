@@ -4,7 +4,8 @@
     color: var(--light-text-color);
     text-align: center;
   }
-  .cta .cta-heading-above{
+
+  .cta .cta-heading-above {
     font-weight: 700;
     font-size: 22px;
     line-height: calc(33 / 22);
@@ -19,6 +20,7 @@
     letter-spacing: 0.1px;
     margin-bottom: 10px;
   }
+
   .cta .cta-heading-below {
     font-weight: 400;
     font-size: 46px;
@@ -26,6 +28,7 @@
     letter-spacing: 0.2px;
     margin-bottom: 69px;
   }
+
   .cta .cta-content-text {
     font-weight: 400;
     font-size: 18px;
@@ -33,13 +36,15 @@
     letter-spacing: 0.2px;
     margin-bottom: 34px;
   }
+
   .cta .cta-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .cta-form .cta-form-input  {
+
+  .cta-form .cta-form-input {
     width: 353px;
     padding: 19px 35px;
     background-color: var(--light-text-color);
@@ -50,6 +55,7 @@
     letter-spacing: 0.1px;
     margin-bottom: 12px;
   }
+  
   .cta-form .cta-form-btn {
     width: 353px;
     padding: 17px 35px;
