@@ -83,13 +83,13 @@
     display: flex;
     margin: 2rem 1rem;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 1.2rem;
 }
 
 /* Tab nav */
 .nav-tablet {
     align-items: center;
-    gap: 2.4rem;
+    gap: 2.3rem;
     display: none;
 }
 
@@ -137,6 +137,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        gap: 1.4rem;
+    }
+    .nav-tablet-list {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .nav-header-auth {
+        margin: unset;
     }
   }
 

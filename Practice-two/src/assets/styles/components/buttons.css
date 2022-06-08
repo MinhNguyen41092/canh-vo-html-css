@@ -33,3 +33,23 @@
         border: none;
     }
 }
+
+.btn-primary {
+    padding: 1.1rem 1.8rem;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border-radius: 0.8rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+}
+
+.btn-light {
+    padding: 1.1rem 1.8rem;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    border-radius: 0.8rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+}
