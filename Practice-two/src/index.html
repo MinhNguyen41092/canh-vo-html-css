@@ -1,13 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice 2</title>
-    <link rel="stylesheet" href="./assets/styles/main.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Practice 2</title>
+	<link rel="stylesheet" href="./assets/styles/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link 
+	  href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap" 
+	  rel="stylesheet">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1/css/all.css">
 </head>
 <body>
-    
+	
+  <div class="wrapper">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="nav">
+        <div class="nav-logo">
+          <img src="assets/images/header_logo.png" alt="" class="nav-logo-img">
+          <h2 class="nav-logo-text">Product</h2>
+        </div>  
+      
+        <!-- Nav mobile -->
+        <label for="nav-mobile-action" class="nav-bars-btn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" class="nav-action" id="nav-mobile-action">
+        <label for="nav-mobile-action" class="nav-overlay"></label>
+        <nav class="nav-mobile">
+          <label for="nav-mobile-action"><i class="fa-solid fa-xmark"></i></label>
+          <ul class="nav-mobile-list">
+            <li><a href="" class="nav-mobile-link">Product</a></li>             
+            <li><a href="" class="nav-mobile-link">Customers </a></li>
+            <li><a href="" class="nav-mobile-link">Pricing</a></li>
+            <li><a href="" class="nav-mobile-link">Resources</a></li>
+          </ul>
+          <div class="nav-mobile-auth">
+            <a href="" class="nav-mobile-signin">Sign In</a>
+            <a href="" class="nav-mobile-signup">Sign Up</a>
+          </div>
+        </nav>
+
+        <!-- Nav Tablet and PC -->
+        <nav class="nav-tablet">
+          <ul class="nav-tablet-list">
+            <li><a href="" class="nav-tablet-link">Product</a></li>             
+            <li><a href="" class="nav-tablet-link">Customers </a></li>
+            <li><a href="" class="nav-tablet-link">Pricing</a></li>
+            <li><a href="" class="nav-tablet-link">Resources</a></li>
+          </ul>
+          <div class="nav-tablet-auth">
+            <a href="" class="nav-tablet-signin">Sign In</a>
+            <a href="" class="nav-tablet-signup">Sign Up</a>
+          </div>
+        </nav>
+
+      </div>
+    </header>
+  </div>
+
+
 </body>
 </html>
