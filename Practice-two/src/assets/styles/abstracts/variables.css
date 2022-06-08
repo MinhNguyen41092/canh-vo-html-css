@@ -3,4 +3,6 @@
     --black-color: #22343D;
     --light-color: #FFFFFF;
     --blackblue-color: #173A56;
+    --gray-color: #AFAFAF;
+    --linear-background-color: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
 }

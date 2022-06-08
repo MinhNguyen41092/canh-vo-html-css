@@ -8,6 +8,8 @@
 /* Components */
 @import url(components/navigation.css);
 @import url(components/buttons.css);
+@import url(components/title.css);
 
 /* Layout */
 @import url(layout/header.css);
+@import url(layout/pricing_section.css);
