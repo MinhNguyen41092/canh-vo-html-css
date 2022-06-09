@@ -12,5 +12,9 @@
 
 /* Layout */
 @import url(layout/header.css);
-@import url(layout/pricing_section.css);
-@import url(layout/enterprise_section.css);
+@import url(layout/pricing-section.css);
+@import url(layout/enterprise-section.css);
+@import url(layout/benefit-section.css);
+@import url(layout/question-section.css);
+@import url(layout/joining-section.css);
+@import url(layout/footer.css);

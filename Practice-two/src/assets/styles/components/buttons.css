@@ -1,6 +1,6 @@
 /* Button auth mobile */
 .nav-auth-signin {
-    padding: 0.8rem 1.6rem;
+    padding: 0.8rem 1.3rem;
     color: var(--blackblue-color);
     background-color: var(--light-color);
     font-weight: 400;
@@ -10,7 +10,7 @@
     margin-right: 1rem;
 }
 .nav-auth-signup {
-    padding: 0.7rem 1.5rem;
+    padding: 0.7rem 1.2rem;
     color: var(--light-color);
     background-color: var(--primary-color);
     font-weight: 400;

@@ -14,121 +14,34 @@
   <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1/css/all.css">
 </head>
 <body>
-	
   <div class="wrapper">
 
     <!-- Header -->
-    <header class="header">
-      <div class="nav">
-        <div class="nav-logo">
-          <img src="assets/images/header_logo.png" alt="" class="nav-logo-img">
-          <h2 class="nav-logo-text">Product</h2>
-        </div>  
-      
-        <!-- Nav mobile -->
-        <label for="nav-mobile-action" class="nav-bars-btn">
-          <i class="fa-solid fa-bars"></i>
-        </label>
-        <input type="checkbox" class="nav-action" id="nav-mobile-action">
-        <label for="nav-mobile-action" class="nav-overlay"></label>
-        <nav class="nav-mobile">
-          <label for="nav-mobile-action"><i class="fa-solid fa-xmark"></i></label>
-          <ul class="nav-mobile-list">
-            <li><a href="" class="nav-mobile-link">Product</a></li>             
-            <li><a href="" class="nav-mobile-link">Customers </a></li>
-            <li><a href="" class="nav-mobile-link">Pricing</a></li>
-            <li><a href="" class="nav-mobile-link">Resources</a></li>
-          </ul>
-          <div class="nav-header-auth">
-            <a href="" class="nav-auth-signin">Sign In</a>
-            <a href="" class="nav-auth-signup">Sign Up</a>
-          </div>
-        </nav>
+    <include src="../src/partials/header.html"></include>
 
-        <!-- Nav Tablet and PC -->
-        <nav class="nav-tablet">
-          <ul class="nav-tablet-list">
-            <li><a href="" class="nav-tablet-link">Product</a></li>             
-            <li><a href="" class="nav-tablet-link">Customers </a></li>
-            <li><a href="" class="nav-tablet-link">Pricing</a></li>
-            <li><a href="" class="nav-tablet-link">Resources</a></li>
-          </ul>
-          <div class="nav-header-auth">
-            <a href="" class="nav-auth-signin">Sign In</a>
-            <a href="" class="nav-auth-signup">Sign Up</a>
-          </div>
-          <img src="assets/images/nav_img.png" alt="" class="nav-img">
-        </nav>
-
-      </div>
-    </header>
+    <!-- Content -->
+    <main>
 
     <!-- Pricing section -->
-    <section class="pricing">
-      <div class="pricing-heading">
-        <h3 class="title-medium pricing-heading-above">PRICING</h3>
-        <h2 class="title-large pricing-heading-below">Let’s get some real work done here.</h2>
-        <p class="title-small pricing-heading-text">Product is your perfect solution for working. 
-          Get started now for free</p>
-      </div>
-      <div class="pricing-list">
-        <article class="pricing-item">
-          <h3 class="pricing-item-title">Free</h3>
-          <h5 class="pricing-item-des">Brief price description</h5>
-          <div class="pricing-item-price">
-            <h2 class="item-left">0</h2>
-            <div class="item-right">
-              <h3 class="item-right-unit">$</h3>
-              <h5 class="item-right-text">Per / month</h5>
-            </div>
-          </div>
-          <p class="pricing-item-text">Only 2 Operators</p>
-          <p class="pricing-item-text">Notifications</p>
-          <p class="pricing-item-text">Landing Pages</p>
-          <a href="" class="btn-primary pricing-item-btn">Order Now</a>
-        </article>
-        <article class="pricing-item">
-          <h3 class="pricing-item-title">Standard</h3>
-          <h5 class="pricing-item-des">Brief price description</h5>
-          <div class="pricing-item-price">
-            <h2 class="item-left">5</h2>
-            <div class="item-right">
-              <h3 class="item-right-unit">$</h3>
-              <h5 class="item-right-text">Per / month</h5>
-            </div>
-          </div>
-          <p class="pricing-item-text">Only 2 Operators</p>
-          <p class="pricing-item-text">Notifications</p>
-          <p class="pricing-item-text">Landing Pages</p>
-          <a href="" class="btn-primary pricing-item-btn">Order Now</a>
-        </article>
-        <article class="pricing-item">
-          <h3 class="pricing-item-title">Premium</h3>
-          <h5 class="pricing-item-des">Brief price description</h5>
-          <div class="pricing-item-price">
-            <h2 class="item-left">10</h2>
-            <div class="item-right">
-              <h3 class="item-right-unit">$</h3>
-              <h5 class="item-right-text">Per / month</h5>
-            </div>
-          </div>
-          <p class="pricing-item-text">Only 2 Operators</p>
-          <p class="pricing-item-text">Notifications</p>
-          <p class="pricing-item-text">Landing Pages</p>
-          <a href="" class="btn-primary pricing-item-btn">Order Now</a>
-        </article>
-      </div>
-    </section>
+    <include src="../src/partials/pricing-section.html"></include>
 
     <!-- Enterprise section -->
-    <section class="enterprise">
-      <h3 class="title-medium enterprise-heading-above">ENTERPRISE</h3>
-      <h2 class="title-large enterprise-heading-below">Are you interested  in a custom tailored plan?</h2>
-      <p class="title-small enterprise-text">Product is a set of advanced features for really large teams with projects.</p>
-      <a href="" class="btn-primary enterprise-btn">Get in touch with us</a>
-    </section>
+    <include src="../src/partials/enterprise-section.html"></include>
+
+    <!-- Benefit section -->
+    <include src="../src/partials/benefit-section.html"></include>
+
+    <!-- Question section -->
+    <include src="../src/partials/question-section.html"></include>
+
+    <!-- Joining section -->
+    <include src="../src/partials/joining-section.html"></include>
+    
+    </main>
+    
+    <!-- Footer -->
+    <include src="../src/partials/footer.html"></include>
 
   </div>
-
 </body>
 </html>
