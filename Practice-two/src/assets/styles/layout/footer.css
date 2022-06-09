@@ -1,0 +1,93 @@
+.footer {
+  padding: 0 2.5rem 2.2rem 2.5rem;
+  text-align: center;
+}
+
+.footer-media {
+  margin-bottom: 3.2rem;
+}
+
+.footer-media-img {
+  margin: auto;
+  margin-bottom: 2.8rem;
+}
+
+.footer-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.footer-info, .footer-legal, .footer-signup {
+  margin-bottom: 3.2rem;
+}
+
+.footer-info-title, .footer-legal-title, 
+.footer-signup-caption {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--black-color);
+  margin-bottom: 0.8rem;
+}
+
+.footer-info-link, .footer-legal-link {
+  display: block;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  color: var(--black-color);
+  margin-bottom: 0.6rem;
+}
+
+.footer-signup-caption {
+  margin-bottom: 3.8rem;
+}
+
+.footer-signup-input {
+  border: 1px solid #BCD0E5;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: var(--black-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-main {
+    padding: 0 4rem 2.2rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-media, .footer-info, .footer-legal {
+    width: 33%;
+  }
+  .footer-signup {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer-main {
+    padding: 0 10rem 4rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-media, .footer-info, .footer-legal, .footer-signup {
+    width: 25%;
+    margin-bottom: 2.3rem;
+  }
+  .footer-signup-caption {
+    text-align: left;
+  }
+}

@@ -1,0 +1,50 @@
+.joining {
+  margin: 10rem 2rem;
+  padding: 1.5rem 2rem;
+  background-color: var(--primary-color);
+  border-radius: 3.2rem;
+  text-align: center;
+}
+
+.joining-content-text {
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 4.85rem;
+  text-align: center;
+  color: var(--light-color);
+  margin-bottom: 10rem;
+}
+
+.joining-content-btn {
+  padding: 1rem 3.4rem;
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  margin-bottom: 4rem;
+}
+
+.joining-img {
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .joining {
+    display: flex;
+    gap: 5rem;
+  }
+  .joining-content-text {
+    margin: 3rem 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .joining {
+    margin: 10rem 15rem;
+    padding: 5rem;
+    text-align: left;
+  }
+  .joining-content-text {
+    max-width: 51rem;
+    margin: 5rem 0 8rem;
+    text-align: left;
+  }
+}
