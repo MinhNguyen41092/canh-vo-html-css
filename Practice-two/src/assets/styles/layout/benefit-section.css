@@ -8,6 +8,7 @@
 }
 .benefit-mobile-img {
     margin-bottom: 4rem;
+    margin: auto;
 }
 .benefit-desktop-img {
     display: none;
@@ -30,11 +31,7 @@
     line-height: 2.8rem;
 }
 
-@media only screen and (min-width: 768px) {
-    .benefit-mobile-img {
-        margin-bottom:unset;
-    }
-
+@media only screen and (min-width: 768px) {   
     .benefit-main {
         display: flex;
         gap: 3rem;
@@ -50,6 +47,7 @@
     }
     .benefit-desktop-img {
         display: block;
+        margin: auto;
     }
     .benefit-main {
         display: flex;
