@@ -18,7 +18,7 @@
 .joining-content-btn {
   padding: 1rem 3.4rem;
   background-color: var(--light-color);
-  color: var(--primary-color);
+  color: var(--black-color);
   margin-bottom: 4rem;
 }
 
@@ -39,7 +39,7 @@
 @media only screen and (min-width: 1024px) {
   .joining {
     margin: 10rem 15rem;
-    padding: 5rem;
+    padding: 1.4rem 1.6rem 0 5.1rem;
     text-align: left;
   }
   .joining-content-text {

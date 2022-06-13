@@ -38,6 +38,10 @@
   color: var(--black-color);
 }
 
+.content-item-img {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 1024px) {
   .question {
     padding: 0 20rem;
