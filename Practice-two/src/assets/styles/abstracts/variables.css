@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #02897A;
-    --black-color: #22343D;
-    --light-color: #FFFFFF;
-    --blackblue-color: #173A56;
-    --gray-color: #AFAFAF;
-    --silver-color: #E7E7E7;
-    --linear-background-color: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
+  --primary-color: #02897A;
+  --black-color: #22343D;
+  --light-color: #FFFFFF;
+  --blackblue-color: #173A56;
+  --gray-color: #AFAFAF;
+  --silver-color: #E7E7E7;
+  --linear-background-color: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
 }

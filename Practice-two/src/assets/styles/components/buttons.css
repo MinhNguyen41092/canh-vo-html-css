@@ -1,57 +1,58 @@
 /* Button auth mobile */
 .nav-auth-signin {
-    padding: 0.8rem 1.3rem;
-    color: var(--blackblue-color);
-    background-color: var(--light-color);
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 2.4rem;
-    border-radius: 0.4rem;
-    margin-right: 1rem;
-}
-.nav-auth-signup {
-    padding: 0.7rem 1.2rem;
-    color: var(--light-color);
-    background-color: var(--primary-color);
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 2.4rem;
-    border-radius: 0.4rem;
-    border: 1px solid var(--light-color);
+  padding: 0.8rem 1.3rem;
+  color: var(--blackblue-color);
+  background-color: var(--light-color);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  border-radius: 0.4rem;
+  margin-right: 1rem;
 }
 
-/* Button auth tablet and pc */
+.nav-auth-signup {
+  padding: 0.7rem 1.2rem;
+  color: var(--light-color);
+  background-color: var(--primary-color);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--light-color);
+}
+
+/* Button auth tablet and desktop */
 @media only screen and (min-width: 768px){
-    .nav-auth-signin {
-        color: var(--blackblue-color);
-        background-color: var(--light-color);
-        border: 1px solid var(--primary-color);
-    }
-    .nav-auth-signup {
-        color: var(--light-color);
-        background-color: var(--primary-color);
-        border: none;
-    }
+  .nav-auth-signin {
+    color: var(--blackblue-color);
+    background-color: var(--light-color);
+    border: 1px solid var(--primary-color);
+  }
+  .nav-auth-signup {
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    border: none;
+  }
 }
 
 .btn-primary {
-    padding: 1.1rem 1.8rem;
-    background-color: var(--primary-color);
-    color: var(--light-color);
-    border-radius: 0.8rem;
-    font-weight: 600;
-    font-size: 1.8rem;
-    line-height: 2.1rem;
-    display: inline-block;
+  padding: 1.1rem 1.8rem;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 0.8rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  display: inline-block;
 }
 
 .btn-light {
-    padding: 1.1rem 1.8rem;
-    background-color: var(--light-color);
-    color: var(--primary-color);
-    border-radius: 0.8rem;
-    font-weight: 600;
-    font-size: 1.8rem;
-    line-height: 2.1rem;
-    display: inline-block;
+  padding: 1.1rem 1.8rem;
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  border-radius: 0.8rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  display: inline-block;
 }

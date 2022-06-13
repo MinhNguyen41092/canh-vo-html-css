@@ -1,102 +1,102 @@
 .pricing {
-    padding: 5rem 3rem 10rem;
+  padding: 5rem 3rem 10rem;
 }
 
 .pricing-heading {
-    text-align: center;
+  text-align: center;
 }
 
 .pricing-heading-above {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .pricing-heading-bellow {
-    margin-bottom: 1.8rem;
+  margin-bottom: 1.8rem;
 }
 
 .pricing-heading-text {
-    margin-bottom: 7rem;
+  margin-bottom: 7rem;
 }
 
 .pricing-list {
-    padding: 0 1.4rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3.2rem;
+  padding: 0 1.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
 }
 .pricing-item {
-    width: 100%;
-    padding: 2.4rem 7rem 3.2rem;
-    text-align: center;
-    background-color: var(--light-color) ;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
+  width: 100%;
+  padding: 2.4rem 7rem 3.2rem;
+  text-align: center;
+  background-color: var(--light-color) ;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
 }
 
 .pricing-item-title {
-   font-weight: 700;
-   font-size: 2.4rem;
-   line-height: 4rem; 
-   margin-bottom: 0.8rem;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 4rem; 
+  margin-bottom: 0.8rem;
 }
 
 .pricing-item-des {
-   font-weight: 400;
-   font-size: 1.6rem;
-   line-height: 4rem; 
-   margin-bottom: 1.6rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 4rem; 
+  margin-bottom: 1.6rem;
 }
 
 .pricing-item-price {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    gap: 0.8rem;
-    margin-bottom: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 0.8rem;
+  margin-bottom: 1.6rem;
   }
 
 .pricing-item-price .item-left {
-    font-weight: 700;
-    font-size: 7.6rem;
-    line-height: 10rem;
-    letter-spacing: 0.2px;
-    color: var(--primary-color);
+  font-weight: 700;
+  font-size: 7.6rem;
+  line-height: 10rem;
+  letter-spacing: 0.2px;
+  color: var(--primary-color);
 }
 
 .item-right .item-right-unit {
-    font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 3rem;
-    letter-spacing: 0.1px;
-    color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  letter-spacing: 0.1px;
+  color: var(--primary-color);
 }
 
 .item-right .item-right-text {
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-    letter-spacing: 0.1px;
-    color: var(--gray-color);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.1px;
+  color: var(--gray-color);
 }
 
 .pricing-item-text {
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-    letter-spacing: 0.2px;
-    color: var(--black-color);
-    margin-bottom: 1.6rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.2px;
+  color: var(--black-color);
+  margin-bottom: 1.6rem;
 }
 
 .pricing-item-btn {
-    display: inline-block;
-    margin-top: 3.8rem;
+  display: inline-block;
+  margin-top: 3.8rem;
 }
 
 .pricing-item:nth-child(2) {
-    background-color: var(--primary-color);
-    color: var(--light-color);
+  background-color: var(--primary-color);
+  color: var(--light-color);
 }
 
 .pricing-item:nth-child(2) .pricing-item-title,
@@ -109,36 +109,36 @@
 }
 
 .pricing-item:nth-child(2) .pricing-item-btn {
-    background-color: var(--light-color);
-    color: var(--primary-color);
+  background-color: var(--light-color);
+  color: var(--primary-color);
 }
 
 @media only screen and (min-width: 768px) {
-    .pricing {
-        padding: 5rem 1rem 10rem;
-    }
-    .pricing-list {
-        gap: unset;
-        margin-left: -2rem;
-    }
-    .pricing-item {
-        width: calc(33.33% - 2rem);
-        padding: 2rem;
-        margin-left: 2rem;
-    }
+  .pricing {
+    padding: 5rem 1rem 10rem;
   }
+  .pricing-list {
+    gap: unset;
+    margin-left: -2rem;
+  }
+  .pricing-item {
+    width: calc(33.33% - 2rem);
+    padding: 2rem;
+    margin-left: 2rem;
+  }
+}
 
   @media only screen and (min-width: 1024px) {
-    .pricing {
-        padding: 5rem 14rem 15rem;
-    }
-    .pricing-list {
-        gap: unset;
-        margin-left: -2rem;
-    }
-    .pricing-item {
-        width: calc(33.33% - 2rem);
-        padding: 2rem;
-        margin-left: 2rem;
-    }
+  .pricing {
+    padding: 5rem 14rem 15rem;
   }
+  .pricing-list {
+    gap: unset;
+    margin-left: -2rem;
+  }
+  .pricing-item {
+    width: calc(33.33% - 2rem);
+    padding: 2rem;
+    margin-left: 2rem;
+  }
+}
