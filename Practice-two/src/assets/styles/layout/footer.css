@@ -7,6 +7,22 @@
   margin-bottom: 3.2rem;
 }
 
+.footer-media-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  margin-bottom: 2.5rem;
+}
+
+.footer-media-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 2.8rem;
+  color: var(--blackblue-color);
+}
+
 .footer-media-img {
   margin: auto;
   margin-bottom: 2.8rem;
@@ -40,6 +56,10 @@
   color: var(--black-color);
   margin-bottom: 0.6rem;
 }
+
+.footer-info-link:hover, .footer-legal-link:hover {
+  color: var(--gray-color);
+} 
 
 .footer-signup-caption {
   margin-bottom: 3.8rem;
@@ -81,11 +101,18 @@
     padding: 0 10rem 4rem 10rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
   .footer-media, .footer-info, .footer-legal, .footer-signup {
     width: 25%;
     margin-bottom: 2.3rem;
+    text-align: left;
+  }
+  .footer-media-logo {
+    justify-content: flex-start;
+  }
+  .footer-media-icons {
+    justify-content: flex-start;
   }
   .footer-signup-caption {
     text-align: left;

@@ -4,20 +4,6 @@
   justify-content: space-between;
 }
 
-.nav-logo {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  cursor: pointer;
-}
-
-.nav-logo-text {
-  font-weight: 700;
-  font-size: 3rem;
-  line-height: 2.8rem;
-  color: var(--blackblue-color);
-}
-
 .nav-overlay {
   position: fixed;
   top: 0;
@@ -53,6 +39,7 @@
   top: 0;
   right: 0;
   bottom: 0;
+  padding: 0 1.6rem;
   width: 50%;
   max-width: 100%;
   background-color: var(--primary-color);
@@ -61,7 +48,6 @@
 }
 .nav-menu-list {
   margin-top: 3rem;
-  padding: 0 1.6rem;
 }
 
 .nav-menu-link {
@@ -69,6 +55,10 @@
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 2.8rem;
+}
+
+.nav-menu-link:hover {
+  color: var(--gray-color);
 }
 
 .fa-xmark {
@@ -79,19 +69,21 @@
   color: var(--light-color);
 }
 
-.nav-header-auth {
+.btn-group {
   display: flex;
-  margin: 2rem 1rem;
+  margin: 2rem 0;
   flex-wrap: wrap;
-  gap: 1.2rem;
+}
+
+.light-mode-switch {
+  padding: 0.4rem;
+  border-radius: 10rem;
+  cursor: pointer;
 }
 
 /* Tablet nav */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .nav {
-    display: block;
-  }
-  .nav-logo {
+  .header-logo {
     justify-content: center;
     margin-bottom: 3rem;
   }
@@ -119,11 +111,10 @@
     line-height: 2.8rem;
     color: var(--black-color);
   }
-  .nav-header-auth {
+  .btn-group {
     display: flex;
     margin: unset;
     flex-wrap: unset;
-    gap: 1.2rem;
   }
   .nav-bars-btn {
     display: none;
@@ -139,12 +130,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1.2rem;
     opacity: 1;
     position: unset;
     background-color: var(--light-color);
     width: unset;
-    max-width: 70%;
     transition: unset;
     transform: unset;
   }
@@ -153,6 +142,7 @@
     align-items: center;
     gap: 1.5rem;
     margin-top: 0;
+    margin-right: 2.4rem;
   }
   .nav-menu-link {
     font-weight: 400;
@@ -160,11 +150,15 @@
     line-height: 2.8rem;
     color: var(--black-color);
   }
-  .nav-header-auth {
-    display: flex;
+  .btn-group {
     margin: unset;
-    flex-wrap: unset;
-    gap: 1.2rem;
+    gap: unset;
+    margin-right: 3rem;
+    flex-wrap: nowrap;
+  }
+
+  .nav-auth-signin {
+    margin-right: 2.4rem;
   }
 }
 

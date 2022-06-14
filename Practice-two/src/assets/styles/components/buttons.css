@@ -1,5 +1,5 @@
 /* Button auth mobile */
-.nav-auth-signin {
+.btn-sign-in {
   padding: 0.8rem 1.3rem;
   color: var(--blackblue-color);
   background-color: var(--light-color);
@@ -8,9 +8,10 @@
   line-height: 2.4rem;
   border-radius: 0.4rem;
   margin-right: 1rem;
+  display: inline-block;
 }
 
-.nav-auth-signup {
+.btn-sign-up {
   padding: 0.7rem 1.2rem;
   color: var(--light-color);
   background-color: var(--primary-color);
@@ -19,16 +20,36 @@
   line-height: 2.4rem;
   border-radius: 0.4rem;
   border: 1px solid var(--light-color);
+  display: inline-block;
 }
 
 /* Button auth tablet and desktop */
 @media only screen and (min-width: 768px){
-  .nav-auth-signin {
+  .btn-sign-in {
+    min-width: 10.2rem;
+    width: 100%;
+    max-height: 4.3rem;
+    height: 100%;
+    padding: 1rem 0 0.9rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     color: var(--blackblue-color);
     background-color: var(--light-color);
     border: 1px solid var(--primary-color);
+    margin-right: 2.4rem;
   }
-  .nav-auth-signup {
+  .btn-sign-up {
+    min-width: 11rem;
+    width: 100%;
+    max-height: 4.3rem;
+    height: 100%;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    padding: 1rem 0 0.9rem;
     color: var(--light-color);
     background-color: var(--primary-color);
     border: none;

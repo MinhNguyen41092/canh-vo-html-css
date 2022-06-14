@@ -1,44 +1,45 @@
 html {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
   
-  * {
-    margin: 0;
-    padding: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
   
-  *, *:before, *:after {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
   
-  input, textarea, select, button {
-    outline: none;
-    border: none;
-  }
+input, textarea, select, button {
+  outline: none;
+  border: none;
+}
   
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
   
-  input {
-    line-height: normal;
-  }
+input {
+  line-height: normal;
+}
   
-  label, button {
-    cursor: pointer;
-  }
+label, button {
+  cursor: pointer;
+}
   
-  img {
-    display: block;
-    max-width: 100%;
-  }
+img {
+  display: block;
+  max-width: 100%;
+}
   
-  body {
-    line-height: 1;
-    font-family: "Poppins";
-  }
-  ul {
-    list-style: none;
-  }
+body {
+  line-height: 1;
+  font-family: "Poppins";
+}
+
+ul {
+  list-style: none;
+}
